@@ -3,6 +3,9 @@
 -- fastn.package: harshil282008.github.io/learningftd
 download-base-url: https://raw.githubusercontent.com/harshil282008/learningftd/main
 
+-- fastn.dependency: gargajit.github.io/expander
+-- fastn.dependency: fifthtry.github.io/admonitions
+-- fastn.dependency: fifthtry.github.io/winter-cs
 -- fastn.dependency: fifthtry.github.io/doc-site as ds
 -- fastn.dependency: fifthtry.github.io/bling as bling
 

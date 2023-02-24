@@ -1,0 +1,87 @@
+;; root column for page
+-- ftd.column:
+padding.px: 50
+background.solid: #eee
+width: fill-container
+height: fill-container
+align-content: top-center
+spacing.fixed.px: 20
+
+
+-- box: What is ftd?
+
+FTD is the innovative programming language for writing 
+prose. Say goodbye to the complexities of traditional 
+programming languages and hello to a simplified and 
+intuitive experience.
+With FTD, you can express your ideas and bring them to a
+compilation with ease. Our language is specifically designed
+for human beings, not just programmers, which is why we have
+taken precautions like not requiring quotes for strings and 
+avoiding the use of indentation or braces that other
+languages often rely on.
+
+-- box:
+
+-- box.title:
+
+About ftd
+
+-- box.body:
+
+ftd allows you to separate component and variable
+definitions into different modules, and then use them in
+any module by using the import keyword. This helps to
+logically organize your code and avoid complexity,
+leading to cleaner and easier to understand code.
+
+
+
+-- box:
+
+
+-- end: ftd.column
+;; root column ends
+
+
+-- component box:
+caption title: Default header
+body body: Default body
+
+
+;; column for box
+-- ftd.column:
+border-width.px: 4
+spacing.fixed.px: 10
+width: fill-container
+
+
+
+;; header box
+-- ftd.row:
+width: fill-container
+spacing: space-between
+border-bottom-width.px: 1
+padding.px: 10
+
+-- ftd.text: $box.title
+
+-- ftd.text: X
+
+
+-- end: ftd.row
+;; header row ends
+
+
+-- ftd.text: $box.body
+padding.px: 10
+height: hug-content
+
+
+
+
+
+-- end: ftd.column
+;; box column ends
+
+-- end: box

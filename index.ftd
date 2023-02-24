@@ -1,51 +1,41 @@
+-- import: fifthtry.github.io/doc-site as ds
 -- import: harshil282008.github.io/learningftd/assets
+-- import: gargajit.github.io/expander as e
+-- import: fifthtry.github.io/admonitions as cbox
+-- import: fifthtry.github.io/winter-cs
+
+
+-- ds.page: Demo page
+site-logo: $assets.files.images.logo.svg
+colors: $winter-cs.main
+
+
+hello
+hi
+sup?
+
+-- ds.h1: About this page
+
+This page is created by using four packages. They are
+
+- doc site
+- expander
+- admonitions
+- colour-scheme
+
+-- e.box: hello World
+
+welcome to the future of Json/yml and html/css.
 
 
 
--- ds.page: Welcome to your [FASTN site](https://fastn.dev/)
 
--- ftd.column:
-align-self: center
+-- cbox.info: Admonition note
 
--- chat.message-left: Yo! I am Amit Upadhyay, CEO of FifthTry, welcome to the new world of FTD.
-
--- ds.markdown: 
-
-You reached the right place, and from here let me assure you, your FTD journey is going superfast. 🙂
-
--- end: chat.message-left
-
--- chat.message-right:  😊 Liking this chat component?
-
--- ds.markdown:
-
-[Click here to learn more](https://fifthtry.github.io/bling/chat/)
-👍
-
--- end: chat.message-right
-
--- end: ftd.column
-
--- ds.h1: How to use?
-
-It's very simple like making a sandwich. Create new `.ftd` file and just say:
-
--- ds.code: `-- ds.page` 
-lang: ftd
-
-\-- ds.page: Your page title goes here
-
-Your page content goes here.
+Ones upon a time there was a tortoise and a rabit one day
+rabit challenged tortoise to a race rabit was confident
+in his win and they chose the date.
 
 
--- ds.h1: Need sidebar at right side of page?
-
-Here it is, [use this document](https://fifthtry.github.io/doc-site/docs/right-sidebar/).
-
-
--- ds.h1: 👀 Learn FTD and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.dev/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
 -- end: ds.page
