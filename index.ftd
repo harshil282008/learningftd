@@ -47,6 +47,7 @@ leading to cleaner and easier to understand code.
 -- component box:
 caption title: Default header
 body body: Default body
+boolean $open: false
 
 
 ;; column for box
@@ -63,11 +64,15 @@ width: fill-container
 spacing: space-between
 border-bottom-width.px: 1
 padding.px: 10
+$on-click$: $toggle($value = $box.open)
 
 -- ftd.text: $box.title
 
 -- ftd.text: X
+if: { box.open }
 
+-- ftd.text: O
+if: { !box.open }
 
 -- end: ftd.row
 ;; header row ends
@@ -76,7 +81,7 @@ padding.px: 10
 -- ftd.text: $box.body
 padding.px: 10
 height: hug-content
-
+if: { box.open }
 
 
 
@@ -85,3 +90,10 @@ height: hug-content
 ;; box column ends
 
 -- end: box
+
+
+-- void toggle(value):
+boolean $value:
+
+
+value = !value;
